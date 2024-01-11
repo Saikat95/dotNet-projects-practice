@@ -15,7 +15,7 @@ namespace library_management_system
 {
     public partial class books_stock : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=ASUS-SAIKAT;Initial Catalog=library-management-db;Integrated Security=True;Pooling=False");
+        SqlConnection con = new SqlConnection("");
         public books_stock()
         {
             InitializeComponent();
